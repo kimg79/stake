@@ -32,7 +32,8 @@ export const FinalityProviders: React.FC<FinalityProvidersProps> = ({
   return (
     <>
       <p>
-        Select a finality provider or{" "}
+        Select a finality provider
+        {/* or{" "}
         <a
           href="https://github.com/babylonchain/networks/tree/main/bbn-test-4/finality-providers"
           target="_blank"
@@ -40,7 +41,7 @@ export const FinalityProviders: React.FC<FinalityProvidersProps> = ({
           className="sublink text-primary hover:underline"
         >
           create your own
-        </a>
+        </a> */}
         .
       </p>
       <div className="hidden gap-2 px-4 lg:grid lg:grid-cols-stakingFinalityProvidersDesktop">

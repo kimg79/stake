@@ -24,7 +24,7 @@ export const Header: React.FC<HeaderProps> = ({
           <Logo />
           <div className="flex flex-1">
             <div className="hidden flex-1 xl:flex">
-              <TestingInfo />
+              {/* <TestingInfo /> */}
             </div>
           </div>
           <ConnectSmall
@@ -36,9 +36,9 @@ export const Header: React.FC<HeaderProps> = ({
           <ThemeToggle />
         </div>
       </div>
-      <div className="container mx-auto flex w-full items-center p-6 pb-0 xl:hidden">
+      {/* <div className="container mx-auto flex w-full items-center p-6 pb-0 xl:hidden">
         <TestingInfo />
-      </div>
+      </div> */}
     </nav>
   );
 };

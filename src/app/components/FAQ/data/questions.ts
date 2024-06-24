@@ -1,7 +1,9 @@
 export const questions = [
   {
-    title: "What is Babylon?",
-    content: `<p>Babylon is a suite of security-sharing protocols that bring Bitcoin\’s unparalleled security to the decentralized world. The latest protocol, Bitcoin Staking, enables Bitcoin holders to stake their Bitcoin to provide crypto-economic security to PoS (proof-of-stake) systems in a trustless and self-custodial way.</p>`,
+    title: "What is Fiamma?",
+    content: `<p>Fiamma is the first BTC-secured universal ZK settlement network, enabling general ZK use cases in the Bitcoin ecosystem while bringing BTC-secured ZK-proof verification to Ethereum and beyond. 
+    Featuring deep integration with Babylon and BitVM, great decentralization, and a low entry barrier via its mobile nodes, Fiamma is determined to become the backbone of a scalable, decentralized, and secure BTC ecosystem. 
+    It will become the hub for easy launch of ZK rollups and other ZK use cases in the Bitcoin ecosystem.</p>`,
   },
   {
     title: "How does Bitcoin Staking Work?",
@@ -12,7 +14,7 @@ export const questions = [
   },
   {
     title: "What is the goal of this testnet?",
-    content: `<p>The goal of this testnet is to ensure the security of the staked Bitcoins by testing the user's interaction with the Signet BTC network. This will be a lock-only network without any PoS chain operating, meaning that the only participants of this testnet will be finality providers and Signet Bitcoin stakers.</p>`,
+    content: `<p>The testnet aims to ensure the security of staked Bitcoins by testing user interactions with the Signet BTC network. This lock-only network will not operate any PoS chain, meaning the only participants will be finality providers and Signet Bitcoin stakers.</p>`,
   },
   {
     title: "What does this staking dApp allow me to do?",
@@ -48,10 +50,5 @@ export const questions = [
   {
     title: "Do I get rewards for staking?",
     content: `<p>No. This is a locking-only testnet without a PoS chain. There is no PoS staking reward nor incentives for participation.</p>`,
-  },
-  {
-    title: "Are there any other ways to stake?",
-    content: `<p>Hands-on stakers can operate the <a href="https://github.com/babylonchain/btc-staker/blob/dev/docs/create-phase1-staking.md" target="_blank" rel="noopener noreferrer" class="text-primary"><u>btc-staker CLI program</u></a> that allows for the creation of Signet Bitcoin staking transactions from the CLI.</p>
-    `,
   },
 ];

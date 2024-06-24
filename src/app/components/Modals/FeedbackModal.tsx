@@ -18,13 +18,13 @@ const SuccessContent = () => {
           included in a Bitcoin block with sufficient confirmations. This might
           take up to two hours, so stay tuned!
         </p>
-        <p>
+        {/* <p>
           Your participation is crucial to our testnet’s success. We invite you
           to share your experience and feedback in our dedicated thread on the
           Babylon Forum. Your insights are valuable to us and will help us
           understand your experience with Bitcoin staking on our Testnet.
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           Visit the{" "}
           <a
             href="https://forum.babylonlabs.io/c/testnet/41"
@@ -35,7 +35,7 @@ const SuccessContent = () => {
             Testnet Feedback Megathread
           </a>{" "}
           to post your thoughts.
-        </p>
+        </p> */}
         <p>
           Thank you for being a part of this groundbreaking journey with us!
         </p>

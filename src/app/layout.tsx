@@ -9,7 +9,7 @@ import Providers from "./providers";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Babylon - Staking Dashboard",
+  title: "Fiamma - Staking Dashboard",
   description: "BTC Staking Dashboard",
 };
 

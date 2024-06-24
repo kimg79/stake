@@ -58,7 +58,7 @@ export const Delegation: React.FC<DelegationProps> = ({
     if (state === DelegationState.ACTIVE) {
       return (
         <div className="flex justify-end lg:justify-start">
-          <button
+          {/* <button
             className="btn btn-outline btn-xs inline-flex text-sm font-normal text-primary"
             onClick={() => onUnbond(stakingTxHash)}
             disabled={
@@ -66,13 +66,13 @@ export const Delegation: React.FC<DelegationProps> = ({
             }
           >
             Unbond
-          </button>
+          </button> */}
         </div>
       );
     } else if (state === DelegationState.UNBONDED) {
       return (
         <div className="flex justify-end lg:justify-start">
-          <button
+          {/* <button
             className="btn btn-outline btn-xs inline-flex text-sm font-normal text-primary"
             onClick={() => onWithdraw(stakingTxHash)}
             disabled={
@@ -80,7 +80,7 @@ export const Delegation: React.FC<DelegationProps> = ({
             }
           >
             Withdraw
-          </button>
+          </button> */}
         </div>
       );
     } else {
