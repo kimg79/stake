@@ -33,7 +33,7 @@ export const questions = [
     <ol>
       <li>
         1. Code security<br />
-        There is an inherent risk that the code developed for Bitcoin staking has vulnerabilities or bugs. The Babylon team has open-sourced the code, and it is under security audits.
+        There is an inherent risk that the code developed for Bitcoin staking has vulnerabilities or bugs. The Fiamma team has open-sourced the code, and it is under security audits.
       </li>
       <br />
       <li>

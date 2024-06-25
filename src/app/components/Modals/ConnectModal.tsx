@@ -142,7 +142,7 @@ export const ConnectModal: React.FC<ConnectModalProps> = ({
             <span className="label-text">
               I certify that I have read and accept the updated{" "}
               <a
-                href="/babylonchain_terms_of_use.doc"
+                href="/fiamma_terms_of_use.doc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sublink text-primary hover:underline"
